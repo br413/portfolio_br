@@ -61,7 +61,7 @@ export default function Home() {
           </MountReveal>
           <MountReveal delay={0.12}>
             <h1 className="display mt-4 text-6xl sm:text-8xl lg:text-[8.25rem]">
-              <span className="text-grad">Darian Waing</span>
+              <span className="text-grad">Brian Yang</span>
             </h1>
           </MountReveal>
           <MountReveal delay={0.18}>

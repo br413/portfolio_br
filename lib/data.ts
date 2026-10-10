@@ -282,7 +282,7 @@ export type Testimonial = {
 export const testimonials: Testimonial[] = [
   {
     quote:
-      'Darian doesn\'t just write code — he absorbs the entire system in days and starts shipping by the end of the week. He doesn\'t need hand-holding; he needs a problem. Give him something nobody else can figure out, and he\'ll come back with a working solution.',
+      'Brian doesn\'t just write code — he absorbs the entire system in days and starts shipping by the end of the week. He doesn\'t need hand-holding; he needs a problem. Give him something nobody else can figure out, and he\'ll come back with a working solution.',
     author: 'Ted Lee, CEO',
     role: 'MemoLabs',
   },
@@ -291,8 +291,8 @@ export const testimonials: Testimonial[] = [
 // Why the surname is spelled Waing. Shown as a standalone note on the About page.
 export const nameNote = {
   label: 'A note on the name',
-  body: 'On my documents it reads Wang. Somewhere in the first year of the AI era I kept turning the letters over, and there it was, already sitting inside my own name: W, AI, NG. So I made it permanent.',
-  equation: 'Wang + AI = Waing',
+  body: 'On my documents it reads Yang. Somewhere in the first year of the AI era I kept turning the letters over, and there it was, already sitting inside my own name: Y, AI, NG. So I made it permanent.',
+  equation: 'Yang + AI = Yaing',
 }
 
 export type ProjectHighlight = {

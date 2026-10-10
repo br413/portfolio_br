@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   description: SITE_CONFIG.summary,
   keywords: [
-    'Darian Waing',
+    'Brian Yang',
     'Software Engineer',
     'Full-Stack Developer',
     'AI Engineer',

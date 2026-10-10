@@ -7,11 +7,11 @@ import { projectHighlights } from '@/lib/data'
 
 export const metadata = {
   title: 'Work',
-  description: 'All projects by Darian Waing — AI platforms, payment systems, e-commerce, computer vision, blockchain, and more. From Supakon to HindSight to Author Wizard.',
+  description: 'All projects by Brian Yang — AI platforms, payment systems, e-commerce, computer vision, blockchain, and more. From Supakon to HindSight to Author Wizard.',
   alternates: { canonical: '/projects' },
   openGraph: {
-    title: 'Work | Darian Waing',
-    description: 'All projects by Darian Waing — AI platforms, payment systems, e-commerce, computer vision, blockchain, and more.',
+    title: 'Work | Brian Yang',
+    description: 'All projects by Brian Yang — AI platforms, payment systems, e-commerce, computer vision, blockchain, and more.',
   },
 }
 

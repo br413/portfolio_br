@@ -3,11 +3,11 @@ import { psychometricTraits, psychometricSummary, mbtiData } from '@/lib/data'
 
 export const metadata = {
   title: 'Profile',
-  description: 'Psychometric profile from Snaphunt and MBTI personality type (ENFJ-T) from 16Personalities — Darian Waing\'s working style and traits.',
+  description: 'Psychometric profile from Snaphunt and MBTI personality type (ENFJ-T) from 16Personalities — Brian Yang\'s working style and traits.',
   alternates: { canonical: '/profile' },
   openGraph: {
-    title: 'Profile | Darian Waing',
-    description: 'Psychometric profile from Snaphunt and MBTI personality type (ENFJ-T) from 16Personalities — Darian Waing\'s working style and traits.',
+    title: 'Profile | Brian Yang',
+    description: 'Psychometric profile from Snaphunt and MBTI personality type (ENFJ-T) from 16Personalities — Brian Yang\'s working style and traits.',
   },
 }
 

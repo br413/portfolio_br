@@ -3,11 +3,11 @@ import { storyParagraphs, storyTitle } from '@/lib/data'
 
 export const metadata = {
   title: 'My Story',
-  description: 'The full personal journey from Windows 95 to AI — how Darian Waing became the developer he is today.',
+  description: 'The full personal journey from Windows 95 to AI — how Brian Yang became the developer he is today.',
   alternates: { canonical: '/story' },
   openGraph: {
-    title: 'My Story | Darian Waing',
-    description: 'The full personal journey from Windows 95 to AI — how Darian Waing became the developer he is today.',
+    title: 'My Story | Brian Yang',
+    description: 'The full personal journey from Windows 95 to AI — how Brian Yang became the developer he is today.',
   },
 }
 

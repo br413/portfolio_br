@@ -8,11 +8,11 @@ import { SITE_CONFIG } from '@/lib/constants'
 
 export const metadata = {
   title: 'Resume',
-  description: 'Experience, skills, and career highlights of Darian Waing — Software Engineer specializing in AI, full-stack, and Windows programming.',
+  description: 'Experience, skills, and career highlights of Brian Yang — Software Engineer specializing in AI, full-stack, and Windows programming.',
   alternates: { canonical: '/resume' },
   openGraph: {
-    title: 'Resume | Darian Waing',
-    description: 'Experience, skills, and career highlights of Darian Waing — Software Engineer specializing in AI, full-stack, and Windows programming.',
+    title: 'Resume | Brian Yang',
+    description: 'Experience, skills, and career highlights of Brian Yang — Software Engineer specializing in AI, full-stack, and Windows programming.',
   },
 }
 
@@ -83,7 +83,7 @@ export default function ResumePage() {
                     {SITE_CONFIG.email}
                   </Link>
                   <Link href={SITE_CONFIG.github} className="block text-dim transition-colors hover:text-accent">
-                    github.com/dariank38
+                    github.com/br413
                   </Link>
                 </div>
               </div>

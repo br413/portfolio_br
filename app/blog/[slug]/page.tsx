@@ -20,14 +20,14 @@ export function generateMetadata({ params }: { params: Promise<{ slug: string }>
       alternates: { canonical: `/blog/${post.slug}` },
       openGraph: {
         type: 'article',
-        title: `${post.title} | Darian Waing`,
+        title: `${post.title} | Brian Yang`,
         description: post.excerpt,
         publishedTime: post.date,
         tags: post.tags,
       },
       twitter: {
         card: 'summary_large_image',
-        title: `${post.title} | Darian Waing`,
+        title: `${post.title} | Brian Yang`,
         description: post.excerpt,
       },
     }

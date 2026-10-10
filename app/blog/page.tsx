@@ -5,11 +5,11 @@ import { blogPosts, blogPostContents, storyParagraphs } from '@/lib/data'
 
 export const metadata = {
   title: 'Blog',
-  description: 'Project write-ups, career stories, and lessons learned from decades in the trenches — by Darian Waing, Software Engineer.',
+  description: 'Project write-ups, career stories, and lessons learned from decades in the trenches — by Brian Yang, Software Engineer.',
   alternates: { canonical: '/blog' },
   openGraph: {
-    title: 'Blog | Darian Waing',
-    description: 'Project write-ups, career stories, and lessons learned from decades in the trenches — by Darian Waing, Software Engineer.',
+    title: 'Blog | Brian Yang',
+    description: 'Project write-ups, career stories, and lessons learned from decades in the trenches — by Brian Yang, Software Engineer.',
   },
 }
 

@@ -1,4 +1,4 @@
-# Hi, I'm Darian 👑
+# Hi, I'm Brian 👑
 
 **Software Engineer** — Windows Programming · Full-Stack Development · AI Engineering
 

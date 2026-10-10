@@ -40,7 +40,7 @@ export function Footer() {
         </div>
 
         <div className="mt-14 flex flex-wrap items-center justify-between gap-4 border-t border-line pt-6 font-mono text-[0.7rem] tracking-[0.14em] text-faint">
-          <span>© 2026 DARIAN KING</span>
+          <span>© 2026 Brian Yang</span>
           <span className="flex gap-4">
             <Link href={SITE_CONFIG.github} target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-accent">
               GITHUB
