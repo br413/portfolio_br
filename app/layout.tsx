@@ -4,7 +4,7 @@ import "./globals.css";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 import { ThemeProvider } from "@/components/theme-provider";
-import { SITE_CONFIG } from "@/lib/constants";
+import { BASE_PATH, SITE_CONFIG } from "@/lib/constants";
 import { getProfileImage } from "@/lib/profile-image";
 
 const geistSans = Geist({
@@ -18,7 +18,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://clover38.com'),
+  metadataBase: new URL(SITE_CONFIG.url),
   title: {
     default: `${SITE_CONFIG.name} | ${SITE_CONFIG.title}`,
     template: `%s | ${SITE_CONFIG.name}`,
@@ -63,20 +63,20 @@ export const metadata: Metadata = {
     canonical: '/',
   },
   icons: {
-    icon: '/favicon.png',
-    shortcut: '/favicon.png',
-    apple: '/favicon.png',
+    icon: `${BASE_PATH}/favicon.png`,
+    shortcut: `${BASE_PATH}/favicon.png`,
+    apple: `${BASE_PATH}/favicon.png`,
   },
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://clover38.com',
+    url: SITE_CONFIG.url,
     siteName: SITE_CONFIG.name,
     title: `${SITE_CONFIG.name} — ${SITE_CONFIG.title}`,
     description: SITE_CONFIG.summary,
     images: [
       {
-        url: '/favicon.png',
+        url: `${SITE_CONFIG.url}/favicon.png`,
         width: 512,
         height: 512,
         alt: SITE_CONFIG.name,
@@ -88,7 +88,7 @@ export const metadata: Metadata = {
     title: `${SITE_CONFIG.name} — ${SITE_CONFIG.title}`,
     description: SITE_CONFIG.summary,
     creator: '@tweetj0101',
-    images: ['/favicon.png'],
+    images: [`${SITE_CONFIG.url}/favicon.png`],
   },
   category: 'technology',
 };
@@ -115,11 +115,11 @@ export default function RootLayout({
               name: SITE_CONFIG.name,
               jobTitle: SITE_CONFIG.title,
               ...(getProfileImage()
-                ? { image: `https://clover38.com${getProfileImage()}` }
+                ? { image: `${SITE_CONFIG.url}${getProfileImage()}` }
                 : {}),
               description: SITE_CONFIG.summary,
               email: `mailto:${SITE_CONFIG.email}`,
-              url: 'https://clover38.com',
+              url: SITE_CONFIG.url,
               sameAs: [
                 SITE_CONFIG.github,
                 SITE_CONFIG.twitter,

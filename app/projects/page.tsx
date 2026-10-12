@@ -4,6 +4,7 @@ import { ArrowUpRight } from 'lucide-react'
 import { Reveal, Stagger, StaggerItem } from '@/components/fx'
 import { TiltCard } from '@/components/fx'
 import { projectHighlights } from '@/lib/data'
+import { BASE_PATH } from '@/lib/constants'
 
 export const metadata = {
   title: 'Work',
@@ -75,7 +76,7 @@ export default function ProjectsPage() {
                         {project.image && (
                           <div className="relative aspect-[16/9] overflow-hidden">
                             <Image
-                              src={project.image}
+                              src={`${BASE_PATH}${project.image}`}
                               alt={project.title}
                               fill
                               sizes="(max-width: 1024px) 100vw, 560px"

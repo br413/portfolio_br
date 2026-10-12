@@ -3,6 +3,7 @@
 import Image from 'next/image'
 import { ArrowUpRight } from 'lucide-react'
 import { TiltCard } from '@/components/fx'
+import { BASE_PATH } from '@/lib/constants'
 
 export type FeaturedProject = {
   title: string
@@ -25,7 +26,7 @@ export function FeaturedCard({ project }: { project: FeaturedProject }) {
         {project.image && (
           <div className="relative aspect-[16/10] overflow-hidden">
             <Image
-              src={project.image}
+              src={`${BASE_PATH}${project.image}`}
               alt={project.title}
               fill
               sizes="(max-width: 768px) 100vw, 420px"

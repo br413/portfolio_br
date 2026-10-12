@@ -1,10 +1,11 @@
 import type { MetadataRoute } from 'next'
 import { blogPosts } from '@/lib/data'
+import { SITE_CONFIG } from '@/lib/constants'
 
 export const dynamic = 'force-static'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = 'https://clover38.com'
+  const base = SITE_CONFIG.url
 
   const staticPages: MetadataRoute.Sitemap = [
     { url: `${base}/`, lastModified: new Date(), changeFrequency: 'monthly', priority: 1 },

@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { cn } from '@/lib/utils'
 import { getProfileImage } from '@/lib/profile-image'
-import { SITE_CONFIG } from '@/lib/constants'
+import { BASE_PATH, SITE_CONFIG } from '@/lib/constants'
 
 type PortraitProps = {
   size?: number
@@ -16,7 +16,7 @@ export function Portrait({ size = 64, className, priority }: PortraitProps) {
 
   return (
     <Image
-      src={src}
+      src={`${BASE_PATH}${src}`}
       alt={SITE_CONFIG.name}
       width={size}
       height={size}

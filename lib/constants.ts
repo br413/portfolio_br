@@ -1,4 +1,4 @@
-export const BASE_PATH = ''
+export const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? ''
 
 export const SITE_CONFIG = {
   name: 'Brian Yang',
@@ -10,4 +10,5 @@ export const SITE_CONFIG = {
   github: 'https://github.com/br413',
   twitter: 'https://twitter.com/tweetj0101',
   repo: 'portfolio_br',
+  url: 'https://br413.github.io/portfolio_br',
 }
