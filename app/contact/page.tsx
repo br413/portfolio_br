@@ -16,7 +16,6 @@ export const metadata = {
 const contactLinks = [
   { title: 'Email', note: 'Best way to reach me', href: `mailto:${SITE_CONFIG.email}` },
   { title: 'GitHub', note: 'Open source and side projects', href: SITE_CONFIG.github },
-  { title: 'Twitter', note: 'Random thoughts and updates', href: SITE_CONFIG.twitter },
 ]
 
 const trustSignals = [

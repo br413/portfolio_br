@@ -87,7 +87,6 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: `${SITE_CONFIG.name} — ${SITE_CONFIG.title}`,
     description: SITE_CONFIG.summary,
-    creator: '@tweetj0101',
     images: [`${SITE_CONFIG.url}/favicon.png`],
   },
   category: 'technology',
@@ -122,7 +121,6 @@ export default function RootLayout({
               url: SITE_CONFIG.url,
               sameAs: [
                 SITE_CONFIG.github,
-                SITE_CONFIG.twitter,
               ],
               knowsAbout: [
                 'Software Engineering',

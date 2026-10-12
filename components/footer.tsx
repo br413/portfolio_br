@@ -45,9 +45,6 @@ export function Footer() {
             <Link href={SITE_CONFIG.github} target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-accent">
               GITHUB
             </Link>
-            <Link href={SITE_CONFIG.twitter} target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-accent">
-              TWITTER
-            </Link>
           </span>
           <span>PASCAL → AI · 1994 → ∞</span>
         </div>
